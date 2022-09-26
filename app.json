@@ -1,10 +1,10 @@
 {
-    "name": "Aquabot",
-    "description": "AQUABOT  - Makes it easy and fun to use Whatsapp.",
-    "logo": "https://i.ibb.co/LhyDWxR/aquabot.jpg",
+    "name": "℘ɑׁׅ֮tׁׅhׁׅ֮υׁׅꩇׁׅ݊ - ᨵׁׅ⨍⨍ꪱׁׅᝯׁꪱׁׅɑׁׅ֮ᥣׁׅ֪",
+    "description": "℘ɑׁׅ֮tׁׅhׁׅ֮υׁׅꩇׁׅ݊ - ᨵׁׅ⨍⨍ꪱׁׅᝯׁꪱׁׅɑׁׅ֮ᥣׁׅ֪  - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://scontent.fcmb4-2.fna.fbcdn.net/v/t39.30808-6/300879896_1191469391636894_6039112901209950442_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=67k5n-e_8FMAX_1Qg03&tn=msGj56VmcAptm_e2&_nc_ht=scontent.fcmb4-2.fna&oh=00_AT_58NA461miSiJmdTr8A47eXtHV8FsPhviYwFg3dEbbcg&oe=6332329C",
     "keywords": ["whatsapp", "userbot", "aqua", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/iamMagma/ptsp",
-    "website":   "https://aquabot.ga/",
+    "repository": "https://www.youtube.com/channel/UCiJU8e5rOipJiic-iVx78ow",
+    "website":   "https://www.youtube.com/channel/UCiJU8e5rOipJiic-iVx78ow",
     "success_url": "https://sanuw-api.herokuapp.com/",
     "stack": "container",
     "env": {
@@ -19,7 +19,7 @@
         "LANGUAGE": {
             "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා SI ලෙස සඳහන් කරන්න.ඉංග්‍රීසි භාෂාව සඳහා EN ලෙස සඳහන් කරන්න ",
             "required": true,
-            "value": "EN"
+            "value": "SI"
             
         },
 	"HANDLERS": {
@@ -29,13 +29,13 @@
         },
 	"CUS_PANEL": {
 			"description": "එය ඔබගේ menu එක ලබා ගැනීමට ඔබට අවශ්‍ය කමාන්ඩ් එකක් ඇඩ් කරයි.ඔබ කැමති command එකක් යොදන්න.",
-			"required": false,
-			"value": "panel"	
+			"required": true,
+			"value": "bot"	
 	},
 	 "DEPLOYER": {
 			"description": "ඔබගේ නම හෝ කැමති නමක් යොදන්න",
-			"required": false,
-			"value": "AQUA-USER"
+			"required": true,
+			"value": "℘ɑׁׅ֮tׁׅhׁׅ֮υׁׅꩇׁׅ݊ - ᨵׁׅ⨍⨍ꪱׁׅᝯׁꪱׁׅɑׁׅ֮ᥣׁׅ֪"
 	},   
 	"SEND_READ": {
 			"description": "බොට් මැසේජ් සීන් කරන්න අවශ්‍යනම් true ලෙසද අවශ්‍ය නොවේ නම් false ලෙසද තබන්න.",
@@ -44,13 +44,13 @@
         },
 	"C_EMOJI": {
 			"description": "එය ඔබගේ menu එකෙහි විධානයට පෙර ඇති emoji  වෙනස් කරයි...ඔබ කැමති emoji යක් යොදන්න.",
-			"required": false,
-			"value": "🐙"
+			"required": true,
+			"value": "🍃"
 	},    
 	"D_EMOJI": {
 			"description": "එය ඔබගේ menu එකෙහි  විස්තරයට පෙර ඇති emoji  වෙනස් කරයි...ඔබ කැමති emoji යක් යොදන්න.",
-			"required": false,
-			"value": "🌀"	
+			"required": true,
+			"value": "🔥"	
 	},
 	"DETAILS": {
 			"description": "සිංදු ,වීඩියෝ ,පොටෝ එනකොට ඒවගෙ details එන්න ඕනෙ නම් true ලෙසද ඕනෙ නැත්තන් false ලෙසද තබන්න.",
